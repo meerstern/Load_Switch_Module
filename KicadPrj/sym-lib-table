@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name LDSW_SiP32431)(type Legacy)(uri ${KIPRJMOD}/LDSW_SiP32431.lib)(options "")(descr ""))
+)

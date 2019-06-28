@@ -1,0 +1,5 @@
+Elecrow PN,Parts,Value,Package,QTY,Digikey/Mouser/Manufacturer Part,Remark/ Link
+C15849,C1,1u,C_0603_1608Metric,1,,
+C14663,C2,0.1u,C_0603_1608Metric,1,,
+C4184,R1,20k,R_0603_1608Metric,1,,
+,U1,LDSW_SiP32431,SOT-363_SC-70-6,1,781-SIP32431DR3-GE3 ,

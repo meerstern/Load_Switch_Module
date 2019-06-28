@@ -1,0 +1,189 @@
+
+(session loadswitch.ses
+  (base_design loadswitch.dsn)
+  (placement
+    (resolution um 10)
+    (component Capacitor_SMD:C_0603_1608Metric
+      (place C1 1103880 -535000 front 0)
+      (place R1 1103880 -594000 front 180)
+    )
+    (component Capacitor_SMD:C_0603_1608Metric::1
+      (place C2 1104120 -578000 front 180)
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+      (place J1 1066800 -551650 back 0)
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical::1
+      (place J2 1143000 -551650 back 0)
+    )
+    (component "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+      (place U1 1103000 -556000 front 180)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "(5.1.2)-1")
+    )
+    (library_out 
+      (padstack "Via[0-1]_800:400_um"
+        (shape
+          (circle F.Cu 8000 0 0)
+        )
+        (shape
+          (circle B.Cu 8000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net /VIN
+        (wire
+          (path F.Cu 6000
+            1093500 -548996
+            1069454 -548996
+            1066800 -551650
+          )
+        )
+        (wire
+          (path F.Cu 6000
+            1096005 -535000
+            1096005 -546491
+            1093500 -548996
+          )
+        )
+        (wire
+          (path F.Cu 3998
+            1093500 -548996
+            1093500 -549500
+          )
+        )
+      )
+      (net /GND
+        (wire
+          (path F.Cu 3000
+            1105190 -556000
+            1100254 -556000
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1112500 -556000
+            1105190 -556000
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1105190 -556000
+            1105190 -541565
+            1111755 -535000
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1100254 -556000
+            1093500 -556000
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1096245 -578000
+            1100254 -573991
+            1100254 -556000
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1143000 -565047
+            1146730 -565047
+            1155024 -556753
+            1155024 -546696
+            1147859 -539531
+            1137610 -539531
+            1121141 -556000
+            1112500 -556000
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1143000 -577050
+            1143000 -565047
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1096005 -594000
+            1096005 -578240
+            1096245 -578000
+          )
+        )
+      )
+      (net /VOUT
+        (wire
+          (path F.Cu 6000
+            1111995 -578000
+            1113004 -576991
+            1113004 -563004
+          )
+        )
+        (wire
+          (path F.Cu 3998
+            1113004 -563004
+            1112500 -562500
+          )
+        )
+        (wire
+          (path F.Cu 6000
+            1143000 -551650
+            1131646 -563004
+            1113004 -563004
+          )
+        )
+      )
+      (net /ENABLE
+        (wire
+          (path F.Cu 3000
+            1066800 -577050
+            1066800 -565047
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1112500 -549500
+            1119253 -549500
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1119253 -549500
+            1119715 -549038
+            1119715 -529358
+            1116923 -526566
+            1074655 -526566
+            1054429 -546792
+            1054429 -556407
+            1063069 -565047
+            1066800 -565047
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1066800 -577050
+            1066800 -589053
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1066800 -589053
+            1080283 -602536
+            1103219 -602536
+            1111755 -594000
+          )
+        )
+      )
+    )
+  )
+)
