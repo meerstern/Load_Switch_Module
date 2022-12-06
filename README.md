@@ -11,7 +11,8 @@ SiP32431 load switch module
   * 安定化のため、EN端子は基板上で20kΩでプルダウンしています。  
   * 電池で駆動させるIoT機器ではロードスイッチは欠かせません。  
   
-
+## 販売サイト
+  * [スイッチサイエンス][2]
  
 <img src="https://raw.githubusercontent.com/meerstern/Load_Switch_Module/master/Image/img1.jpg" width="360">
    
@@ -19,5 +20,5 @@ SiP32431 load switch module
     
     
 [1]: https://www.vishay.com/docs/66597/sip32431.pdf "*1"
-
+[2]: https://www.switch-science.com/products/5796
 MIT Lisense
